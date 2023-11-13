@@ -1,0 +1,49 @@
+@import-normalize; /* bring in normalize.css styles */
+
+.profile{
+  max-height: 300px;
+  max-width: 250px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid rgb(72, 72, 72);
+  border-radius: 10px;
+}
+.description{}
+.avatar{
+  width: 100px;
+  border-radius: 50%;
+  background-color: teal;
+}
+.name{
+  font-weight: 700;
+}
+.tag{}
+.location{}
+.stats{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 20px; */
+  padding: 0;
+}
+.stats span{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.stats li{
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(233, 232, 232);
+  text-align: center;
+  
+}
+.label{
+  /* color: rgba(red, green, blue, alpha) */
+  opacity: 0.5;
+}
+.quantity{
+  font-weight: 600;
+}

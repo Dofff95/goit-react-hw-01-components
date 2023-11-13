@@ -1,0 +1,15 @@
+.transaction_history table{
+  width: 700px;
+}
+
+.transaction_history thead{
+  background-color: turquoise;
+
+}
+.transaction_history thead th{
+    border: 1px solid black ;
+}
+.transaction_history td{
+  text-align: center;
+  outline: 1px solid gray;
+}

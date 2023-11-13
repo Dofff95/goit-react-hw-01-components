@@ -1,4 +1,4 @@
-import aaaa  from 'user.json';
+import user  from "user.json";
 // import Profile  from "./profile/Profile";
 
 // import Statistics from './Statistics/Statistics';

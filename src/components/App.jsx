@@ -4,8 +4,8 @@
 // import Statistics from './Statistics/Statistics';
 // import data  from 'data.json';
 
-import FriendList from './FriendList/FriendList'
-import friend from "friends.json";
+// import FriendList from './FriendList/FriendList'
+// import friend from "friends.json";
 
 import transactions from "transactions.json";
 import TransactionHistory from "./TransactionHistory/TransactionHistory.js";

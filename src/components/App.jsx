@@ -1,17 +1,16 @@
 import user  from 'user.json';
 import Profile  from "./profile/Profile";
 
-import Statistics from './Statistics/Statistics';
-import data  from 'data.json';
+// import Statistics from './Statistics/Statistics';
+// import data  from 'data.json';
 
-import FriendList from './FriendList/FriendList'
-import friend from "friends.json";
+// import FriendList from './FriendList/FriendList'
+// import friend from "friends.json";
 
-import transactions from "transactions.json";
-import TransactionHistory from "./TransactionHistory/TransactionHistory.js";
+// import transactions from "transactions.json";
+// import TransactionHistory from "./TransactionHistory/TransactionHistory.js";
 
 
-console.log(user, Profile, Statistics, data, FriendList, friend, transactions, TransactionHistory)
 //  export default const App = () => {
 //         return(
 //         <div>

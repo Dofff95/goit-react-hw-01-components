@@ -11,22 +11,22 @@
 // import TransactionHistory from "./TransactionHistory/TransactionHistory.js";
 
 
- export const App = () => {
-        return(
-        <div>
-      <Profile 
-  username={user.username}
-  tag={user.tag}
-  location={user.location}
-  avatar={user.avatar}
-  stats={user.stats}/>
-      <Statistics
-  title="Upload stats"
-  stats={data}
-  />
-      <FriendList 
-  friends={friend}/> 
-      <TransactionHistory
-  items={transactions}/>
-  </div>)
-    }
+//  export const App = () => {
+//         return(
+//         <div>
+//       <Profile 
+//   username={user.username}
+//   tag={user.tag}
+//   location={user.location}
+//   avatar={user.avatar}
+//   stats={user.stats}/>
+//       <Statistics
+//   title="Upload stats"
+//   stats={data}
+//   />
+//       <FriendList 
+//   friends={friend}/> 
+//       <TransactionHistory
+//   items={transactions}/>
+//   </div>)
+//     }

@@ -11,7 +11,8 @@ import transactions from "transactions.json";
 import TransactionHistory from "./TransactionHistory/TransactionHistory.js";
 
 
-//  export const App = () => {
+console.log(user, Profile, Statistics, data, FriendList, friend, transactions, TransactionHistory)
+//  export default const App = () => {
 //         return(
 //         <div>
 //       <Profile 

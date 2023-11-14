@@ -1,6 +1,5 @@
 import PropTypes  from 'prop-types';
-// import CSS from "./FriendList.module.css";
-import CSS from 'FriendList.module.css'
+import CSS from './FriendList.module.css'
  function FriendListItem({avatar, name, isOnline, id }) {
     return (
     <li className={CSS.item} key={id}>

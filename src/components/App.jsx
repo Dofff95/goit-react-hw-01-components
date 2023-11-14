@@ -1,5 +1,5 @@
 import user  from '../data/user.json';
-import Profile  from './profile/Profile';
+import Profile  from './Profile/Profile';
 
 import Statistics from './Statistics/Statistics';
 import data  from '../data/data.json';

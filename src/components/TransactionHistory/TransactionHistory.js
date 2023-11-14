@@ -1,4 +1,4 @@
-import CSS from "./Transactions.module.css";
+import CSS from "Transactions.module.css";
 import PropTypes from "prop-types";
 function TransactionHistory({items}) {
     return (<table className={CSS.transaction_history} key="transaction">

@@ -5,7 +5,7 @@ import CSS from "./Statistics.module.css";
 const Statistics = ({title, stats} = data) => 
 (    
     <section className={CSS.statistics}>
-  <h2 className={CSS.title}>{title || false}</h2>
+  <h2 className={CSS.title}>{title.length > 0 && title}</h2>
   <ul className={CSS.stat_list}>
 
     {stats.map( (item) =>(

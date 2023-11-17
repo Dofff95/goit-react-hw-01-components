@@ -10,6 +10,12 @@ import friend from "../data/friends.json";
 import transactions from "../data/transactions.json";
 import TransactionHistory from "./TransactionHistory/TransactionHistory";
 
+const Counter = {
+    state: {
+        value: 2
+    }
+}
+
 
  const App = () => {
         return(
@@ -28,6 +34,7 @@ import TransactionHistory from "./TransactionHistory/TransactionHistory";
   friends={friend}/> 
       <TransactionHistory
   items={transactions}/>
-  </div>)
+  </div> 
+  )
     }
  export default App
